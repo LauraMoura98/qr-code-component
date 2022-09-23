@@ -8,7 +8,7 @@ body{
 }
 main{
     width: 100vw;
-    height: 100vh;
+    height: 93vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,13 +26,23 @@ main{
     width: 250px;
     border-radius: 10px;
 }
-.qr-box > h2 {
+.text-box {
+    width: 238px;
+    margin: 0 auto;
+}
+.text-box > h2 {
     font-size: 1.3em;
     text-align: center;
     color: hsl(218, 44%, 22%);
+    line-height: 1.1em;
+    
 }
-.qr-box > p{
+.text-box> p{
+    width: 230px;
     color: hsl(0, 0%, 62%);
+    margin-bottom: 15px;
+    font-size: .9em;
+    line-height: 1.2em;
 }
 .attribution { 
     font-size: 11px; 
