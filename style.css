@@ -30,7 +30,7 @@ main{
     width: 238px;
     margin: 0 auto;
 }
-.text-box > h2 {
+.text-box > h1 {
     font-size: 1.3em;
     text-align: center;
     color: hsl(218, 44%, 22%);
